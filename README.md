@@ -67,6 +67,10 @@ const App = () => {
 }
 ```
 
+## Demo
+
+Check out working demo of progress bar <a style="color:#cc3a38" href="https://codesandbox.io/s/red-haze-fit1p?file=/src/App.js">here</a>.
+
 ## License
 
 MIT © [ashwinKumar0505](https://github.com/ashwinKumar0505)
