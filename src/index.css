@@ -1,0 +1,47 @@
+.progressContainer {
+  width: 100%;
+  height: 15px;
+  background-color: rgb(237, 242, 247);
+  position: relative;
+  overflow-x: hidden;
+  border-radius: 1px;
+}
+
+.progressBar {
+  height: 100%;
+  position: absolute;
+}
+
+
+@keyframes progress {
+  from {
+    left: -10%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes stripe {
+  from {
+    background-position: 1rem 0;
+  }
+
+  to {
+    background-position: 0 0;
+  }
+}
+
+
+.animateProgress {
+  animation: progress 1s ease infinite normal none running;
+  min-width: 50%;
+  will-change: left;
+}
+
+.stripeProgress {
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 1rem 1rem;
+  animation: stripe 1s linear infinite;
+}
