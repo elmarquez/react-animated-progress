@@ -1,10 +1,10 @@
 {
-  "name": "react-progress-bar",
-  "version": "1.0.0",
+  "name": "react-animated-progress",
+  "version": "1.0.1",
   "description": "Cool and Interactive Progress bar",
   "author": "ashwinKumar0505",
   "license": "MIT",
-  "repository": "ashwinKumar0505/react-progress-bar",
+  "repository": "ashwinKumar0505/react-animated-progress",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
